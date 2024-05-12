@@ -23,7 +23,6 @@ class ToDoList extends StatelessWidget {
           motion: StretchMotion(),
           children: [
             SlidableAction(
-              padding: EdgeInsets.all(40),
               onPressed: deleteFunction,
               icon: Icons.delete,
               borderRadius: BorderRadius.circular(15),
